@@ -7,10 +7,7 @@ const gulp = require("gulp");
 const source = require("vinyl-source-stream");
 const tsify = require("tsify");
 const tslint = require("gulp-tslint");
-const typescript = require("gulp-typescript");
 const uglify = require("gulp-uglify");
-
-const ts_project = typescript.createProject("tsconfig.json");
 
 gulp.task("build", function () {
   return browserify()
