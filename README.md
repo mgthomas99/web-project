@@ -1,4 +1,6 @@
-# node-project
+# web-project
+
+Web project template.
 
 ## License
 
